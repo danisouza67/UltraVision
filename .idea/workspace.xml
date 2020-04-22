@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UltraVision" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aSABoAb5XABKSoSlbcAb0geSak" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src" />
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\catalogStuffs" />
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\Catalog" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="catalogStuffs" />
+      <recent name="interfaces" />
+      <recent name="resources" />
+      <recent name="src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="UltraVision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UltraVision" />
+      <module name="UltraVision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UltraVision" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Dani\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="" />
+      <created>1586718488464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586718488464</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1586730563742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586730563742" />
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586737750846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586737750846" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1587588600412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587588600412" />
+    <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586731532215">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586731532215" />
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587086311920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1587086311920" />
+    <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586884632563">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1586884632563" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586895463431">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586895463431" />
+    <state x="430" y="80" key="DetectedRootsChooserDialog" timestamp="1586730531881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="80" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586730531881" />
+    <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1587586108423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587586108423" />
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1587583968871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587583968871" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1587583968871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587583968871" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1587583968871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587583968871" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1587583968871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587583968871" />
+    <state x="329" y="13" key="SettingsEditor" timestamp="1587587658851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="329" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587587658851" />
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586994213051" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587588495619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1587588495619" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587582797132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587582797132" />
+    <state x="533" y="270" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586994127681" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587586114960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587586114960" />
+    <state x="572" y="92" width="1322" height="499" key="dock-window-1" timestamp="1587424970503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="572" y="92" width="1322" height="499" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1587424970503" />
+    <state x="676" y="0" width="697" height="735" key="dock-window-2" timestamp="1587431417295">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="676" y="0" width="697" height="735" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1587431417295" />
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1587588499287">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1587588499287" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587099073712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587099073712" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587588709116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587588709116" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UltraVision$UltraVision.ic" NAME="UltraVision Coverage Results" MODIFIED="1586744536458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
