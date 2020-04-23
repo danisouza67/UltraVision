@@ -2,6 +2,7 @@ import resources.User;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 
 
 public class UVControl implements ActionListener {
@@ -29,7 +30,14 @@ public class UVControl implements ActionListener {
 
         if(ae.getActionCommand().equals("login")){
             //recognizing action command for login button
-            boolean login = model.connection(userLogged);
+            boolean login = false;
+            try {
+                login = model.connection(userLogged);
+            } catch (SQLException e) {
+                System.out.println("the bank had a problem");
+                System.out.println(e.getMessage());
+                System.out.println(e.getClass());
+                System.out.println(e.getCause());            }
 
             //int administrator = Integer.parseInt(login);
             System.out.println(model.session.getLoginUsername());

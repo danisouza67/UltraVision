@@ -8,8 +8,8 @@ import java.awt.event.ActionListener;
 public class VLCatalog extends JFrame implements ActionListener {
     private JPanel panel1 = new JPanel();
     private JPanel containerTop = new JPanel();
-    private JPanel containerLeft;
-    private JPanel containerLeftDash;r
+    private JPanel containerLeft = new JPanel();
+    private JPanel containerLeftDash = new JPanel();
     private JPanel containerCenter = new JPanel();
     private JPanel containerBottom = new JPanel();
     private String username;
@@ -26,8 +26,9 @@ public class VLCatalog extends JFrame implements ActionListener {
 
     public VLCatalog(User session, UVControl controller){
 
-        this.username = session.getLoginUsername();
-        this.userPass = session.getPass();
+        setUsername(session.getLoginUsername());
+        //this.username = session.getLoginUsername();
+        setUserPass(session.getPass());
         this.controller = controller;
         this.session = session;
         System.out.println(username);
@@ -77,9 +78,9 @@ public class VLCatalog extends JFrame implements ActionListener {
         if(ae.getActionCommand().equalsIgnoreCase("ml")){
             containerLeft = new JPanel();
             System.out.println("vc esta aqui (Session ML)");
+            getContainerLeft().setVisible(true);
+            getContainerLeftDash().setVisible(false);
             this.add(containerLeft, BorderLayout.WEST);
-            containerLeftDash.setVisible(false);
-            containerLeft.setVisible(true);
             leftMenu = new LeftMenu("ML", containerLeft);
             containerLeft.setPreferredSize(new Dimension(210, 500));
             containerLeft.add(leftMenu);
@@ -90,8 +91,8 @@ public class VLCatalog extends JFrame implements ActionListener {
         }else if (ae.getActionCommand().equalsIgnoreCase("dashboard")){
             containerLeftDash = new JPanel();
             System.out.println("You have been transferred to DashBoard, enjoy!");
-            containerLeft.setVisible(false);
-            containerLeftDash.setVisible(true);
+            getContainerLeftDash().setVisible(true);
+            getContainerLeft().setVisible(false);
             this.add(containerLeftDash, BorderLayout.WEST);
             leftMenuDash = new LeftMenuDash("dashboard", containerLeftDash, session, this);
             containerLeftDash.setPreferredSize(new Dimension(210,500));
@@ -108,9 +109,86 @@ public class VLCatalog extends JFrame implements ActionListener {
 
         content.setVisible(false);
 
-        JOptionPane.showInputDialog(null, "Please choose an option", "Title Category",
+       /* String typesOfTitles[] = new String[4];
+        typesOfTitles[0] = "Live Concerts";
+        typesOfTitles[1] = "Music";
+        typesOfTitles[2] = "Movies";
+        typesOfTitles[3] = "TV Box";*/
+
+        Object selectedTitle = JOptionPane.showInputDialog(null, "Please choose an option", "Title Category",
                 JOptionPane.QUESTION_MESSAGE, null, new Object[] {"Live Concert", "Movies", "TV Box", "Music"}, "TypesOfTitles" );
 
-        content.AskUpdateTitles();
+        System.out.println("Title category: " + selectedTitle.toString());
+
+        String selectedTitleString = selectedTitle.toString();
+        //System.out.println(selectedTitle.toString());
+
+
+        content = new MainContent();
+        content.createContentTitlesAdmin(selectedTitleString);
+    }
+
+    public JPanel getPanel1() {
+        return panel1;
+    }
+
+    public void setPanel1(JPanel panel1) {
+        this.panel1 = panel1;
+    }
+
+    public JPanel getContainerTop() {
+        return containerTop;
+    }
+
+    public void setContainerTop(JPanel containerTop) {
+        this.containerTop = containerTop;
+    }
+
+    public JPanel getContainerLeft() {
+        return containerLeft;
+    }
+
+    public void setContainerLeft(JPanel containerLeft) {
+        this.containerLeft = containerLeft;
+    }
+
+    public JPanel getContainerLeftDash() {
+        return containerLeftDash;
+    }
+
+    public void setContainerLeftDash(JPanel containerLeftDash) {
+        this.containerLeftDash = containerLeftDash;
+    }
+
+    public JPanel getContainerCenter() {
+        return containerCenter;
+    }
+
+    public void setContainerCenter(JPanel containerCenter) {
+        this.containerCenter = containerCenter;
+    }
+
+    public JPanel getContainerBottom() {
+        return containerBottom;
+    }
+
+    public void setContainerBottom(JPanel containerBottom) {
+        this.containerBottom = containerBottom;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getUserPass() {
+        return userPass;
+    }
+
+    public void setUserPass(String userPass) {
+        this.userPass = userPass;
     }
 }

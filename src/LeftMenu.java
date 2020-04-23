@@ -49,17 +49,27 @@ public class LeftMenu extends JPanel {
 
         try{
 
-            data = model.bringTitlesForLeftBar(typeAbbr);
+            data = model.selectInTheBeach2D(typeAbbr);
 
         }catch (Exception e){
             System.out.println("the bank had a problem");
             System.out.println(e.getMessage());
             System.out.println(e.getClass());
             System.out.println(e.getCause());
+
+            //new UVControl();
         }
 
-        System.out.println(data[0][0] + data[0][1]);
-        System.out.println(data[1][0] + data[1][1]);
+        if(data == null){
+
+            System.out.println("The system found an error;");
+            new UVControl();
+
+        }
+
+        System.out.println(data[0][0] + data[0][1] + data[0][2]);
+        System.out.println(data[1][0] + data[1][1] + data[1][2]);
+        System.out.println(data[2][0] + data[2][1] + data[2][2]);
     }
 
 
