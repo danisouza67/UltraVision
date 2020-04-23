@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="Daniel ver1">
-      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeftMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UVControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UVModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VLCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VLCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,12 +91,21 @@
       <option name="presentableId" value="Default" />
       <updated>1586718488464</updated>
     </task>
+    <task id="LOCAL-00001" summary="Daniel Admin Titiles ver0">
+      <created>1587669965761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587669965761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Daniel ver1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daniel ver1" />
+    <MESSAGE value="Daniel Admin Titiles ver0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daniel Admin Titiles ver0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" timestamp="1586730563742">
@@ -140,10 +136,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586895463431" />
-    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1587655939193">
+    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1587669961507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587655939193" />
+    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587669961507" />
     <state x="430" y="80" key="DetectedRootsChooserDialog" timestamp="1586730531881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
