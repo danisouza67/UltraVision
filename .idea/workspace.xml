@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589137677360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Daniel Admin Titiles ver0">
+      <created>1589137873219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589137873219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,6 +167,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="97" key="#Google_App_Engine_Deployment/0.0.1366.728@0.0.1366.728" timestamp="1588706434671" />
+    <state x="275" y="22" key="#Notifications" timestamp="1589137936432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1589137936432" />
     <state x="275" y="22" key="#Plugins" timestamp="1588784119031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -221,10 +233,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1588782269575" />
-    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1589137669858">
+    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1589137869483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589137669858" />
+    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589137869483" />
     <state x="430" y="80" key="DetectedRootsChooserDialog" timestamp="1586730531881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -234,22 +246,22 @@
     </state>
     <state x="381" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589137858576" />
     <state x="547" y="151" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587846448567" />
-    <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1589136808658">
+    <state width="661" height="160" key="GridCell.Tab.0.bottom" timestamp="1589137948354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589136808658" />
-    <state width="1323" height="160" key="GridCell.Tab.0.center" timestamp="1589136808657">
+    <state width="661" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589137948354" />
+    <state width="661" height="160" key="GridCell.Tab.0.center" timestamp="1589137948350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589136808657" />
-    <state width="1323" height="160" key="GridCell.Tab.0.left" timestamp="1589136808656">
+    <state width="661" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589137948350" />
+    <state width="661" height="160" key="GridCell.Tab.0.left" timestamp="1589137948347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589136808656" />
-    <state width="1323" height="160" key="GridCell.Tab.0.right" timestamp="1589136808658">
+    <state width="661" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589137948347" />
+    <state width="661" height="160" key="GridCell.Tab.0.right" timestamp="1589137948354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589136808658" />
+    <state width="661" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589137948354" />
     <state width="1323" height="174" key="GridCell.Tab.1.bottom" timestamp="1588215116326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -275,10 +287,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1587588495619" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589137731056">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589137879623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589137731056" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589137879623" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589118486455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
