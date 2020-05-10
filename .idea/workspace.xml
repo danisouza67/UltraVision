@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UltraVision:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="">
+    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="Daniel Admin Titiles ver0">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UltraVision.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UltraVision_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_221.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_51.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UltraVision.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UltraVision.userlibraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Footer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContentID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContentNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltraVision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UltraVision.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/NavTop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/NavTop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeftMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeftMenuDash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenuDash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NavTop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavTop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UVControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UVLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UVModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VLCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VLCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +92,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../JavaGUI/Week4_mysql-connector-java-8.0.12.jar!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src" />
-      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\catalogStuffs" />
-      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\Catalog" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -64,6 +115,11 @@
       <recent name="interfaces" />
       <recent name="resources" />
       <recent name="src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src" />
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\catalogStuffs" />
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\Catalog" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,6 +135,18 @@
         <item itemvalue="Application.UltraVision" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Dani\AppData\Roaming\Subversion</configuration>
@@ -98,36 +166,84 @@
       <option name="project" value="LOCAL" />
       <updated>1587669965761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Daniel Admin Titiles ver0">
+      <created>1587670535175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587670535175</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/UltraVision - Copy" />
+    </ignored-roots>
     <MESSAGE value="Daniel ver1" />
     <MESSAGE value="Daniel Admin Titiles ver0" />
     <option name="LAST_COMMIT_MESSAGE" value="Daniel Admin Titiles ver0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="23" key="#Project_Structure" timestamp="1586730563742">
+    <state x="462" y="168" key="#BuildArtifactsBeforeRunChooser" timestamp="1588706404954">
       <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="168" key="#BuildArtifactsBeforeRunChooser/0.0.1366.728@0.0.1366.728" timestamp="1588706404954" />
+    <state x="275" y="22" key="#Google_App_Engine" timestamp="1588716834637">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Google_App_Engine/0.0.1366.728@0.0.1366.728" timestamp="1588716834637" />
+    <state x="402" y="97" key="#Google_App_Engine_Deployment" timestamp="1588706434671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="97" key="#Google_App_Engine_Deployment/0.0.1366.728@0.0.1366.728" timestamp="1588706434671" />
+    <state x="275" y="22" key="#Plugins" timestamp="1588784119031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1588784119031" />
+    <state x="387" y="33" key="#Project_Structure" timestamp="1587844939293">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586730563742" />
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586737750846">
+    <state x="387" y="33" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587844939293" />
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588260534647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586737750846" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1587595014889">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588260534647" />
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588790869974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587595014889" />
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588790869974" />
+    <state x="756" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589131617876">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="756" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589131617876" />
     <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586731532215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586731532215" />
-    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587086311920">
+    <state x="576" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588120148194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1587086311920" />
+    <state x="576" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1588120148194" />
+    <state x="359" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588704869438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1588704869438" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587845996517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587845996517" />
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1587845962463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587845962463" />
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588032571951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1588032571951" />
+    <state x="510" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587843270339" />
     <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586884632563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -136,52 +252,85 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586895463431" />
-    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1587669961507">
+    <state x="576" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1588716980266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587669961507" />
+    <state x="576" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588716980266" />
+    <state x="430" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588782269575">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1588782269575" />
+    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1589137603212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589137603212" />
     <state x="430" y="80" key="DetectedRootsChooserDialog" timestamp="1586730531881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="80" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586730531881" />
-    <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1587586108423">
+    <state x="698" y="89" key="FileChooserDialogImpl" timestamp="1588719767177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587586108423" />
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1587669852020">
+    <state x="698" y="89" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588719767177" />
+    <state x="547" y="151" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587846448567" />
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1589136808658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587669852020" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1587669852020">
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589136808658" />
+    <state width="1323" height="160" key="GridCell.Tab.0.center" timestamp="1589136808657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587669852020" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1587669852020">
+    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589136808657" />
+    <state width="1323" height="160" key="GridCell.Tab.0.left" timestamp="1589136808656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587669852020" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1587669852020">
+    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589136808656" />
+    <state width="1323" height="160" key="GridCell.Tab.0.right" timestamp="1589136808658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587669852020" />
-    <state x="329" y="13" key="SettingsEditor" timestamp="1587667442254">
+    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589136808658" />
+    <state width="1323" height="174" key="GridCell.Tab.1.bottom" timestamp="1588215116326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="329" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587667442254" />
-    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586994213051" />
+    <state width="1323" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588215116326" />
+    <state width="1323" height="174" key="GridCell.Tab.1.center" timestamp="1588215116326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588215116326" />
+    <state width="1323" height="174" key="GridCell.Tab.1.left" timestamp="1588215116326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588215116326" />
+    <state width="1323" height="174" key="GridCell.Tab.1.right" timestamp="1588215116326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588215116326" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1588810168780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588810168780" />
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587846449676" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587588495619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1587588495619" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587655852067">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589118486455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587655852067" />
-    <state x="533" y="270" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586994127681" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587603039546">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589118486455" />
+    <state x="533" y="270" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587844363375" />
+    <state x="687" y="485" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587844955470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="485" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1587844955470" />
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587959367029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587603039546" />
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1587959367029" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589137606558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589137606558" />
     <state x="572" y="92" width="1322" height="499" key="dock-window-1" timestamp="1587424970503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -194,14 +343,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1587588499287" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587099073712">
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1589131506016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587099073712" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587669196904">
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1589131506016" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1588210466481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587669196904" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1588210466481" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588810164705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588810164705" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UltraVision$UltraVision.ic" NAME="UltraVision Coverage Results" MODIFIED="1586744536458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

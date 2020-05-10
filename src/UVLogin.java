@@ -33,6 +33,7 @@ public class UVLogin extends JFrame {
     }
 
     private void components() {
+        //login page
         JPanel panel1 = new JPanel();
         this.add(panel1);
 

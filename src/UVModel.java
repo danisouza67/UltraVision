@@ -1,5 +1,7 @@
 import resources.User;
 
+import javax.swing.*;
+import java.awt.*;
 import java.sql.*;
 
 public class UVModel {
@@ -9,6 +11,7 @@ public class UVModel {
     String loginLname = null;
     String loginUsername = null;
     String loginAdmin = null;
+
 
     public User session;
     //DashboardAdmin adminDash;
@@ -103,7 +106,7 @@ public class UVModel {
     }
 
     public String[][] selectInTheBeach2D(String typeAbbr) throws SQLException {
-
+        //method designed to select typeAbbr from bnk
         String data[][] = null;
         //String typeAbbr[];
         String query = null;
@@ -111,10 +114,10 @@ public class UVModel {
 
         //String typeAbbrBeach = typeAbbr.replaceAll("^[ \\t]+|[ \\t]+$\", "");
 
-        System.out.println( typeAbbr.replaceAll("^[ \t]+|[ \t]+$", "") );    //"Hello World !!"
+        /*System.out.println( typeAbbr.replaceAll("^[ \t]+|[ \t]+$", "") );    //"Hello World !!"
         System.out.println( typeAbbr.replaceAll("^[ \t]+", "") );            //"Hello World !!   "
         System.out.println( typeAbbr.replaceAll("[ \t]+$", "") );            //"  Hello World !!"
-
+        */
         System.out.println(typeAbbr);
 
 
@@ -124,19 +127,18 @@ public class UVModel {
                 query2 = "SELECT * FROM titles_LiveConcerts;";
                 break;
             case ("VL"):
-                query = "SELECT 'title', 'title_id' FROM titles_Movies";
+                query = "SELECT * FROM titles_Movies";
                 break;
             case "TV":
-                query = "SELECT 'title', 'title_id' FROM titles_TVBox";
+                query = "SELECT * FROM titles_TVBox";
                 break;
             case ("Live Concert"):
                 query = "SELECT * FROM titles_LiveConcerts;";
                 break;
-
         }
 
         System.out.println(query);
-        System.out.println(query2);
+        System.out.println("query2 is: " + query2);
 
 
         try {
@@ -167,16 +169,16 @@ public class UVModel {
                 int size2 = checkSizeTypeML(typeAbbr, query2);
 
 
-                data = new String[size2][3];
+                data = new String[size2][10];
                 //rs2.close();
             } else {
                 size = checkSizeTypeAbbr(typeAbbr);
 
-                data = new String[3][size];
+                data = new String[size][10];
             }
 
             System.out.println("dataX: " + data.length);
-            System.out.println("dataX: " + data[0].length);
+            System.out.println("dataY: " + data[0].length);
             //array for the titles & ids
 
 
@@ -185,7 +187,7 @@ public class UVModel {
                 System.out.println("Live Concert:" + typeAbbr.equalsIgnoreCase("Live Concert"));
 
                 data = null;
-                data = new String[11][size];
+                data = new String[size][11];
 
                 fetchStringsForMainContent(query, data);
 
@@ -224,25 +226,25 @@ public class UVModel {
         int row = 0;
             rs = stmt.executeQuery(query);
         System.out.println("dataX: " + data.length);
-        System.out.println("dataX: " + data[0].length);
+        System.out.println("dataY: " + data[0].length);
 
             while (rs.next()) {
 
             //console view
-            System.out.println(rs.getString("title") + "\t" + rs.getString("title_id") + "\t" + rs.getString("mediaType") + "\t" + rs.getString("type") + "\t" + rs.getString("typeAbbr") + "\t" + rs.getString("band") + "\t" + rs.getString("description") + "\t" + rs.getString("genre") + "\t" + rs.getString("yearOfRelease") + "\t" + rs.getString("price") + "\t" + rs.getString("fk_Live_rent_id"));
+            System.out.println(rs.getString("title_id") + "\t" + rs.getString("title") + "\t" + rs.getString("mediaType") + "\t" + rs.getString("type") + "\t" + rs.getString("typeAbbr") + "\t" + rs.getString("bandDirector") + "\t" + rs.getString("description") + "\t" + rs.getString("genre") + "\t" + rs.getString("yearOfRelease") + "\t" + rs.getString("price") + "\t" + rs.getString("fk_Live_rent_id"));
 
             //filling the jobs ^^
-            data[0][row] = rs.getString("title");
-            data[1][row] = rs.getString("title_id");
-            data[2][row] = rs.getString("mediaType");
-            data[3][row] = rs.getString("type");
-            data[4][row] = rs.getString("typeAbbr");
-            data[5][row] = rs.getString("band");
-            data[6][row] = rs.getString("description");
-            data[7][row] = rs.getString("genre");
-            data[8][row] = rs.getString("yearOfRelease");
-            data[9][row] = rs.getString("price");
-            data[10][row] = rs.getString("fk_Live_rent_id");
+            data[row][0] = rs.getString("title_id");
+            data[row][1] = rs.getString("title");
+            data[row][2] = rs.getString("mediaType");
+            data[row][3] = rs.getString("type");
+            data[row][4] = rs.getString("typeAbbr");
+            data[row][5] = rs.getString("bandDirector");
+            data[row][6] = rs.getString("description");
+            data[row][7] = rs.getString("genre");
+            data[row][8] = rs.getString("yearOfRelease");
+            data[row][9] = rs.getString("price");
+            data[row][10] = rs.getString("fk_Live_rent_id");
 
 
             row++;
@@ -255,43 +257,70 @@ public class UVModel {
         while (rs.next()) {
 
             //console view
-            //System.out.println(rs.getString("title") + "\t" + rs.getString("title_id"));
+            System.out.println(rs.getString("title_id") + "\t" + rs.getString("title") + "\t" + rs.getString("mediaType") + "\t" + rs.getString("type") + "\t" + rs.getString("typeAbbr") + "\t" + rs.getString("bandDirector") + "\t" + rs.getString("description") + "\t" + rs.getString("genre") + "\t" + rs.getString("yearOfRelease") + "\t" + rs.getString("price"));
 
             //filling the jobs ^^
-            data[row][0] = rs.getString("title");
-            data[row][1] = rs.getString("title_id");
-            data[row][2] = rs.getString("type");
+            data[row][0] = rs.getString("title_id");
+            data[row][1] = rs.getString("title");
+            data[row][2] = rs.getString("mediaType");
+            data[row][3] = rs.getString("type");
+            data[row][4] = rs.getString("typeAbbr");
+            data[row][5] = rs.getString("bandDirector");
+            data[row][6] = rs.getString("description");
+            data[row][7] = rs.getString("genre");
+            data[row][8] = rs.getString("yearOfRelease");
+            data[row][9] = rs.getString("price");
+            //data[row][10] = rs.getString("fk_Live_rent_id");
 
             row++;
         }
+
     }
 
 
     private void fetchStringsForLeftMenuML(String query, String query2, String[][] data) throws SQLException {
+//        System.out.println("Estamos no caminho certo");
         int row = 0;
         rs = stmt.executeQuery(query);
         while (rs.next()) {
 
             //console view
-            //System.out.println(rs.getString("title") + "\t" + rs.getString("title_id"));
+            System.out.println(rs.getString("title_id") + "\t" + rs.getString("title") + "\t" + rs.getString("mediaType") + "\t" + rs.getString("type") + "\t" + rs.getString("typeAbbr") + "\t" + rs.getString("bandDirector") + "\t" + rs.getString("description") + "\t" + rs.getString("genre") + "\t" + rs.getString("yearOfRelease") + "\t" + rs.getString("price"));
 
             //filling the jobs ^^
-            data[row][0] = rs.getString("title");
-            data[row][1] = rs.getString("title_id");
-            data[row][2] = rs.getString("type");
+            data[row][0] = rs.getString("title_id");
+            data[row][1] = rs.getString("title");
+            data[row][2] = rs.getString("mediaType");
+            data[row][3] = rs.getString("type");
+            data[row][4] = rs.getString("typeAbbr");
+            data[row][5] = rs.getString("bandDirector");
+            data[row][6] = rs.getString("description");
+            data[row][7] = rs.getString("genre");
+            data[row][8] = rs.getString("yearOfRelease");
+            data[row][9] = rs.getString("price");
+            //data[row][10] = rs.getString("fk_Live_rent_id");
 
             row++;
         }
+
+//        System.out.println("Segundo caminho certo");
         rs2 = stmt2.executeQuery(query2);
         while (rs2.next()) {
 
             //console view
-            //System.out.println(rs.getString("title") + "\t" + rs.getString("title_id"));
+            System.out.println(rs2.getString("title_id") + "\t" + rs2.getString("title") + "\t" + rs2.getString("mediaType") + "\t" + rs2.getString("type") + "\t" + rs2.getString("typeAbbr") + "\t" + rs2.getString("bandDirector") + "\t" + rs2.getString("description") + "\t" + rs2.getString("genre") + "\t" + rs2.getString("yearOfRelease") + "\t" + rs2.getString("price"));
 
             //filling the jobs2 ^^
-            data[row][0] = rs2.getString("title");
-            data[row][1] = rs2.getString("title_id");
-            data[row][2] = rs2.getString("type");
+            data[row][0] = rs2.getString("title_id");
+            data[row][1] = rs2.getString("title");
+            data[row][2] = rs2.getString("mediaType");
+            data[row][3] = rs2.getString("type");
+            data[row][4] = rs2.getString("typeAbbr");
+            data[row][5] = rs2.getString("bandDirector");
+            data[row][6] = rs2.getString("description");
+            data[row][7] = rs2.getString("genre");
+            data[row][8] = rs2.getString("yearOfRelease");
+            data[row][9] = rs2.getString("price");
             row++;
         }
 
@@ -339,5 +368,145 @@ public class UVModel {
 //        rs.close();
 //        rs2.close();
         return size2;
+    }
+
+    public String[][] selectInTheBeachAlone(String id, String typeAbbr) {
+        //method designed to select with an id
+
+        String data[][] = null;
+        //String typeAbbr[];
+        String query = null;
+
+        System.out.println(typeAbbr);
+
+
+        switch (typeAbbr) {
+            case "ML":
+                query = "SELECT * FROM titles_Music;";
+//                query2 = "SELECT * FROM titles_LiveConcerts;";
+                break;
+            case ("VL"):
+                query = "SELECT 'title', 'title_id' FROM titles_Movies";
+                break;
+            case "TV":
+                query = "SELECT 'title', 'title_id' FROM titles_TVBox";
+                break;
+            case ("Live Concert"):
+                query = "SELECT * FROM titles_LiveConcerts;";
+                break;
+        }
+
+        System.out.println(query);
+
+        return data;
+    }
+
+    public void insertInTheBeach2D(String selectedTitleString, String[] allGuys) {
+
+        String query = null;
+        System.out.println(selectedTitleString);
+
+
+        switch (selectedTitleString){
+
+            case ("Live Concert"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                break;
+
+        }
+
+        try {
+
+            //data base drive
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+            String dbServer = "jdbc:mysql://database-1.czpswiukhzqy.eu-west-1.rds.amazonaws.com:3306/UltraVision?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+            String user = "connectionUltra";
+            String password = "!Pass123!";
+            //String sql = "SELECT 'title', 'title_id' FROM ";
+
+            //Get connection
+            conn = DriverManager.getConnection(dbServer, user, password);
+
+            //creating statment
+            PreparedStatement pst = conn.prepareStatement(query);
+            pst.setString(1, allGuys[0]);
+            pst.setString(2, allGuys[1]);
+            pst.setString(3, allGuys[2]);
+            pst.setString(4, allGuys[3]);
+            pst.setString(5, allGuys[4]);
+            pst.setString(6, allGuys[5]);
+            pst.setString(7, allGuys[6]);
+
+            pst.executeUpdate();
+
+            conn.close();
+
+            JOptionPane.showMessageDialog(null, "updated successfully");
+
+
+        }catch (HeadlessException | ClassNotFoundException | IllegalAccessException | InstantiationException | SQLException ex) {
+            System.out.println(ex);
+            System.out.println(ex.getCause());
+            System.out.println(ex.getMessage());
+            System.out.println(ex.toString());
+        }
+
+    }
+
+    public void updateInTheBeach2D(String selectedTitleString, String[] allGuys, String id) {
+
+        String query = null;
+        System.out.println(selectedTitleString);
+
+
+        switch (selectedTitleString){
+
+            case ("Live Concert"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "UPDATE titles_LiveConcerts SET title=?, mediaType=?, bandDirector=?, description=?, genre=?, yearOfRelease=?, price=? WHERE title_id='"
+                        + id + "';";
+                break;
+
+        }
+
+        try {
+
+            //data base drive
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+            String dbServer = "jdbc:mysql://database-1.czpswiukhzqy.eu-west-1.rds.amazonaws.com:3306/UltraVision?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+            String user = "connectionUltra";
+            String password = "!Pass123!";
+            //String sql = "SELECT 'title', 'title_id' FROM ";
+
+            //Get connection
+            conn = DriverManager.getConnection(dbServer, user, password);
+
+            //creating statment
+            PreparedStatement pst = conn.prepareStatement(query);
+            pst.setString(1, allGuys[0]);
+            pst.setString(2, allGuys[1]);
+            pst.setString(3, allGuys[2]);
+            pst.setString(4, allGuys[3]);
+            pst.setString(5, allGuys[4]);
+            pst.setString(6, allGuys[5]);
+            pst.setString(7, allGuys[6]);
+
+            pst.executeUpdate();
+
+            conn.close();
+
+            JOptionPane.showMessageDialog(null, "updated successfully");
+
+
+        }catch (HeadlessException | ClassNotFoundException | IllegalAccessException | InstantiationException | SQLException ex) {
+            System.out.println(ex);
+            System.out.println(ex.getCause());
+            System.out.println(ex.getMessage());
+            System.out.println(ex.toString());
+        }
+
+
     }
 }

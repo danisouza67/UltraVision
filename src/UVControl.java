@@ -12,6 +12,7 @@ public class UVControl implements ActionListener {
         private VLCatalog CusDash;
      // DashboardAdmin AdminDash;
         private User userLogged;
+        private User session;
 
     public UVControl(){
 
@@ -39,13 +40,16 @@ public class UVControl implements ActionListener {
                 System.out.println(e.getClass());
                 System.out.println(e.getCause());            }
 
+            this.session = model.session;
+
             //int administrator = Integer.parseInt(login);
-            System.out.println(model.session.getLoginUsername());
+            System.out.println("session.getLoginUsername(): " + session.getLoginUsername());
 
-            System.out.println(model.loginID);
+            System.out.println("session.loginID: " + session.getLoginID());
 
+            //this.session = model.session;
             if(login){
-                CusDash = new VLCatalog(model.session, this);
+                CusDash = new VLCatalog(session, this);
                 view.dispose();
             }
         }

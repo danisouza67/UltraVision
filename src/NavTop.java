@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
+
 public class NavTop extends JPanel{
 
     private GridBagLayout baseLayout = new GridBagLayout();

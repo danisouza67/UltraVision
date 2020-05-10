@@ -9,31 +9,36 @@ public class LeftMenuDash extends JPanel{
     private JButton search = new JButton(("Search"));
     private GridBagLayout baseLayout = new GridBagLayout();
 
-    UVModel model;
+    //User session;
+//    UVModel model;
     VLCatalog listener;
 
-    public LeftMenuDash(String dashboard, JPanel containerLeftDash, User session, VLCatalog listener) {
-        model = new UVModel();
+    public LeftMenuDash(String dashboard, JPanel containerLeftDash, String userAdmin, VLCatalog listener) {
+        //model = new UVModel();
         this.listener = listener;
+        //this.session = session;
 
-        getDashboardAccess(containerLeftDash, session);
+        System.out.println(userAdmin);
+//        System.out.println(" " + session.getLoginFname() + " " + session.getLoginLname());
+        getDashboardAccess(containerLeftDash, userAdmin);
 
     }
 
-    private void getDashboardAccess(JPanel containerLeftDash, User session) {
+    private void getDashboardAccess(JPanel containerLeftDash, String userAdmin) {
+
 
         //String username = model.session.getLoginUsername();
-        System.out.println(session.getLoginAdmin());
-        System.out.println(session.getLoginUsername());
-        //System.out.println("Administrator?: " + model.session.getLoginAdmin());
+//        System.out.println(session.getLoginAdmin());
+//        System.out.println(session.getLoginUsername());
+       // System.out.println("Administrator?: " + model.session.getLoginAdmin());
         //System.out.println(username);
 
 
-        int administrator = Integer.parseInt(session.getLoginAdmin());
+        int administrator = Integer.parseInt(userAdmin);
 
         System.out.println("admin: " + administrator);
 
-        if(administrator == 0){
+        if(administrator == 1){
             generateAdminLeftMenu(containerLeftDash);
         }else{
             generateCustLeftMenu(containerLeftDash);

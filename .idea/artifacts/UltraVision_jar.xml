@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UltraVision:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UltraVision_jar</output-path>
+    <root id="archive" name="UltraVision.jar">
+      <element id="module-output" name="UltraVision" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaGUI/Week4_mysql-connector-java-8.0.12.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:Release4" />
+    </root>
+  </artifact>
+</component>

@@ -1,28 +1,29 @@
-import com.mysql.cj.xdevapi.Table;
-import sun.plugin.javascript.JSContext;
-
 import javax.swing.*;
-import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LeftMenu extends JPanel {
+public class LeftMenu extends JPanel implements ActionListener {
 
     JButton btmID;
     String typeAbbr;
     String data[][];
 
+    JTable listTitlesTable;
 
     Titles titlesClass[];
     String title;
     String title_id;
     UVModel model = new UVModel();
+    VLCatalog listener;
 
 
 
-    public LeftMenu(String typeAbbr, JPanel containerLeft){
+    public LeftMenu(String typeAbbr, JPanel containerLeft, VLCatalog listener){
+        this.listener = listener;
         Dimension dim = getPreferredSize();
         dim.width = 170;
         setPreferredSize(dim);
@@ -67,9 +68,9 @@ public class LeftMenu extends JPanel {
 
         }
 
-        System.out.println(data[0][0] + data[0][1] + data[0][2]);
-        System.out.println(data[1][0] + data[1][1] + data[1][2]);
-        System.out.println(data[2][0] + data[2][1] + data[2][2]);
+//        System.out.println(data[0][0] + data[0][1] + data[0][2]);
+//        System.out.println(data[1][0] + data[1][1] + data[1][2]);
+//        System.out.println(data[2][0] + data[2][1] + data[2][2]);
     }
 
 
@@ -100,9 +101,16 @@ public class LeftMenu extends JPanel {
 
     private void printingAllTheTitles(String[][] data, JPanel containerLeft) {
 
+        String[][] dataForLeftTable = new String[data.length][3];
+        for (int i = 0; i < data.length; i++){
+            dataForLeftTable[i][0] = data[i][1];
+            dataForLeftTable[i][1] = data[i][0];
+            dataForLeftTable[i][2] = data[i][3];
+        }
 
-        String columnNames[] = {"Titles", "ID"};
-        JTable listTitlesTable = new JTable(data, columnNames);
+
+        String columnNames[] = {"Titles", "ID", "Type"};
+        listTitlesTable = new JTable(dataForLeftTable, columnNames);
         listTitlesTable.setRowHeight(20);
 
         JScrollPane titlesScrollPane = new JScrollPane(listTitlesTable);
@@ -111,11 +119,84 @@ public class LeftMenu extends JPanel {
         columnModel.getColumn(1).setPreferredWidth(20);
         titlesScrollPane.setPreferredSize(new Dimension(190, 450));
         JPanel content = new JPanel();
+        JButton selectLeft = new JButton("Select");
+        selectLeft.addActionListener(listener);
+        selectLeft.setActionCommand("selectLeft");
         //this.add(content);
         containerLeft.add(titlesScrollPane);
+        containerLeft.add(selectLeft);
 
 
 
     }
 
+    @Override
+    public void actionPerformed(ActionEvent actionEvent) {
+        if (actionEvent.getActionCommand().equalsIgnoreCase("selectLeft")){
+
+            try {
+                System.out.println("Selected ID: " + getListTitlesTable().getValueAt(getListTitlesTable().getSelectedRow(), 1));
+                System.out.println("Selected Type: " + getListTitlesTable().getValueAt(getListTitlesTable().getSelectedRow(), 2));
+            } catch (Exception e) {
+                System.out.println("no row selected");
+            }
+            String id = getListTitlesTable().getValueAt(getListTitlesTable().getSelectedRow(), 1).toString();
+            String type = getListTitlesTable().getValueAt(getListTitlesTable().getSelectedRow(), 2).toString();
+            //titlesTPane.setVisible(false);
+            //data = model.selectInTheBeachAlone(id, typeAbbr);
+//            System.out.println("getData.length: " + content.getData(0).length);
+            String[] dataSelected = new String[getData(0).length];
+            fetchSelectedData(data, id, type, dataSelected);
+        }
+    }
+
+    private void fetchSelectedData(String[][] data, String id, String type, String[] dataSelected) {
+
+        System.out.println("row_id: " + id);
+
+        for(int i=0; i < data.length; i++){
+            //System.out.println();
+            System.out.println("data " + data[i][1] + " equals id? " + data[i][0].equals(id));
+            System.out.println("data " + data[i][1] + " equals Type? " + data[i][3].equals(type));
+//            for (int j = 0; j < data.length; j++){
+//                System.out.println("data " + data[i][1] + " equals Type? " + data[i][3].equals(type));
+            if (data[i][0].equals(id) && data[i][3].equals(type)){
+                System.out.print("dataSelected: ");
+                for (int k=0; k < dataSelected.length; k++){
+                    dataSelected[k] = data[i][k];
+                    System.out.print(dataSelected[k] + "\t ");
+                    //break;
+                }
+                /*for (int j=0; j < data[i].length; j++){
+
+                    if (data[i][j].equals(type)){
+                        for (int k=0; i < dataSelected.length; i++){
+                            dataSelected[k] = data[i][k];
+                            System.out.print(dataSelected[k] + "\t ");
+                        }
+                    }
+                }*/
+            }
+            //break;
+        }
+
+        //return data[i];
+
+    }
+
+    public JTable getListTitlesTable() {
+        return listTitlesTable;
+    }
+
+    public void setListTitlesTable(JTable listTitlesTable) {
+        this.listTitlesTable = listTitlesTable;
+    }
+
+    public String[] getData(int i) {
+        return data[i];
+    }
+
+    public void setData(String[][] data) {
+        this.data = data;
+    }
 }
