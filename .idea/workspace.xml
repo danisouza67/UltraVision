@@ -6,54 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="Daniel Admin Titiles ver0">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UltraVision.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UltraVision_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_endpoints_endpoints_framework_Release3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_221.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_51.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_53.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UltraVision.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UltraVision.userlibraries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainContentID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainContentNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltraVision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UltraVision.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/NavTop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/NavTop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeftMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeftMenuDash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenuDash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NavTop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NavTop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UVControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UVLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UVModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VLCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VLCatalog.java" afterDir="false" />
+    <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +52,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../JavaGUI/Week4_mysql-connector-java-8.0.12.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Main CA" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -173,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587670535175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Daniel Admin Titiles ver0">
+      <created>1589137677360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589137677360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,18 +221,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1588782269575" />
-    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1589137603212">
+    <state x="153" y="0" key="CommitChangelistDialog2" timestamp="1589137669858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589137603212" />
+    <state x="153" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589137669858" />
     <state x="430" y="80" key="DetectedRootsChooserDialog" timestamp="1586730531881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="80" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586730531881" />
-    <state x="698" y="89" key="FileChooserDialogImpl" timestamp="1588719767177">
+    <state x="381" y="69" key="FileChooserDialogImpl" timestamp="1589137858576">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="698" y="89" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588719767177" />
+    <state x="381" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589137858576" />
     <state x="547" y="151" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587846448567" />
     <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1589136808658">
       <screen x="0" y="0" width="1366" height="728" />
@@ -314,6 +275,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1587588495619" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589137731056">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589137731056" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589118486455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
