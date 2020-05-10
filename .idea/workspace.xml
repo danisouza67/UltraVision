@@ -7,7 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508f4bc2-282f-4f64-a94e-10b1c499ec9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MainContentUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContentUsersID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContentUsersNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/LeftMenuDash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/MainContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/MainContentID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/MainContentID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/UVModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UltraVision/VLCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeftMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeftMenuDash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftMenuDash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainContentID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainContentID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UVModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UVModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VLCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VLCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +76,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src" />
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\catalogStuffs" />
+      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\Catalog" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -70,11 +90,6 @@
       <recent name="interfaces" />
       <recent name="resources" />
       <recent name="src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src" />
-      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\catalogStuffs" />
-      <recent name="D:\Users\Dani\Drive\OneDrive\Schools\CCT\Scnd year\sem2\Object Oriented Constructs\Week5_Exercise\UltraVision\src\Catalog" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,18 +195,18 @@
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586730563742" />
     <state x="387" y="33" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587844939293" />
-    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588260534647">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589149090287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588260534647" />
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589149090287" />
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588790869974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588790869974" />
-    <state x="756" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589131617876">
+    <state x="756" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589149190953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="756" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589131617876" />
+    <state x="756" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589149190953" />
     <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586731532215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,27 +256,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="80" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1586730531881" />
-    <state x="381" y="69" key="FileChooserDialogImpl" timestamp="1589137858576">
+    <state x="381" y="69" key="FileChooserDialogImpl" timestamp="1589150099617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589137858576" />
+    <state x="381" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589150099617" />
     <state x="547" y="151" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587846448567" />
-    <state width="661" height="160" key="GridCell.Tab.0.bottom" timestamp="1589137948354">
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1589150013381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589137948354" />
-    <state width="661" height="160" key="GridCell.Tab.0.center" timestamp="1589137948350">
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589150013381" />
+    <state width="1323" height="160" key="GridCell.Tab.0.center" timestamp="1589150013381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589137948350" />
-    <state width="661" height="160" key="GridCell.Tab.0.left" timestamp="1589137948347">
+    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589150013381" />
+    <state width="1323" height="160" key="GridCell.Tab.0.left" timestamp="1589150013381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589137948347" />
-    <state width="661" height="160" key="GridCell.Tab.0.right" timestamp="1589137948354">
+    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589150013381" />
+    <state width="1323" height="160" key="GridCell.Tab.0.right" timestamp="1589150013381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589137948354" />
+    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589150013381" />
     <state width="1323" height="174" key="GridCell.Tab.1.bottom" timestamp="1588215116326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -278,10 +293,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588215116326" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1588810168780">
+    <state x="326" y="0" key="SettingsEditor" timestamp="1589150083721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588810168780" />
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589150083721" />
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587846449676" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587588495619">
       <screen x="0" y="0" width="1366" height="728" />
@@ -332,6 +347,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588810164705" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UVModel.java</url>
+          <line>342</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UltraVision$UltraVision.ic" NAME="UltraVision Coverage Results" MODIFIED="1586744536458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

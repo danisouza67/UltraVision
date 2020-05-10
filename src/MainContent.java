@@ -20,6 +20,8 @@ public class MainContent extends JPanel{
     JButton buttonTwo = new JButton();
     //private JTextArea;
 
+    String userAdmin;
+    UVModel model = new UVModel();
     String[][] data;
 
     MainContentID createInterfaceForID;
@@ -438,8 +440,7 @@ public class MainContent extends JPanel{
         this.userAdmin = userAdmin;
     }
 
-    String userAdmin;
-    UVModel model = new UVModel();
+
 
     public String[] getData(int i) {
         return data[i];

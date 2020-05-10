@@ -23,6 +23,10 @@ public class LeftMenu extends JPanel implements ActionListener {
 
 
     public LeftMenu(String typeAbbr, JPanel containerLeft, VLCatalog listener){
+
+//        this.removeAll();
+//        this.removeAncestorListener();
+
         this.listener = listener;
         Dimension dim = getPreferredSize();
         dim.width = 170;
@@ -126,6 +130,8 @@ public class LeftMenu extends JPanel implements ActionListener {
         containerLeft.add(titlesScrollPane);
         containerLeft.add(selectLeft);
 
+        this.revalidate();
+        this.repaint();
 
 
     }

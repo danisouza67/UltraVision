@@ -59,7 +59,12 @@ public class LeftMenuDash extends JPanel{
         JButton updateTitles = new JButton("Update Titles");
 
         containerLeftDash.add(updateProf);
+        updateProf.addActionListener(listener);
+        updateProf.setActionCommand("updateProf");
+
         containerLeftDash.add(updateUser);
+        updateUser.addActionListener(listener);
+        updateUser.setActionCommand("updateUsers");
 
         containerLeftDash.add(updateTitles);
         updateTitles.addActionListener(listener);

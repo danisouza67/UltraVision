@@ -132,8 +132,18 @@ public class UVModel {
             case "TV":
                 query = "SELECT * FROM titles_TVBox";
                 break;
+            //{"Music", "Live Concert", "Movie", "Box Set"}
             case ("Live Concert"):
                 query = "SELECT * FROM titles_LiveConcerts;";
+                break;
+            case ("Music"):
+                query = "SELECT * FROM titles_Music;";
+                break;
+            case ("Movies"):
+                query = "SELECT * FROM titles_Movies;";
+                break;
+            case ("TV Box"):
+                query = "SELECT * FROM titles_TVBox;";
                 break;
         }
 
@@ -408,10 +418,22 @@ public class UVModel {
 
 
         switch (selectedTitleString){
-
+            //{"Music", "Live Concert", "Movie", "Box Set"}
             case ("Live Concert"):
                 //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
                 query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                break;
+            case ("Music"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                query = "INSERT INTO titles_Music (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                break;
+            case ("Movie"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                query = "INSERT INTO titles_Movies (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                break;
+            case ("Box Set"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                query = "INSERT INTO titles_TVBox (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
                 break;
 
         }
@@ -461,11 +483,29 @@ public class UVModel {
 
 
         switch (selectedTitleString){
-
+            //{"Music", "Live Concert", "Movie", "Box Set"}
             case ("Live Concert"):
                 //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
                 //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
                 query = "UPDATE titles_LiveConcerts SET title=?, mediaType=?, bandDirector=?, description=?, genre=?, yearOfRelease=?, price=? WHERE title_id='"
+                        + id + "';";
+                break;
+            case ("Music"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "UPDATE titles_Music SET title=?, mediaType=?, bandDirector=?, description=?, genre=?, yearOfRelease=?, price=? WHERE title_id='"
+                        + id + "';";
+                break;
+            case ("Movie"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "UPDATE titles_Movies SET title=?, mediaType=?, bandDirector=?, description=?, genre=?, yearOfRelease=?, price=? WHERE title_id='"
+                        + id + "';";
+                break;
+            case ("Box Set"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "UPDATE titles_TVBox SET title=?, mediaType=?, bandDirector=?, description=?, genre=?, yearOfRelease=?, price=? WHERE title_id='"
                         + id + "';";
                 break;
 
@@ -507,6 +547,189 @@ public class UVModel {
             System.out.println(ex.toString());
         }
 
+
+    }
+
+    public void deleteThisHeck(String type, String id) {
+
+        System.out.println("Your in the hell session");
+
+        String query = null;
+        System.out.println(id);
+
+
+        switch (type){
+            //{"Music", "Live Concert", "Movie", "Box Set"}
+            case ("Live Concert"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "DELETE from titles_LiveConcerts WHERE title_id='" + id + "';";
+                break;
+            case ("Music"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "DELETE from titles_Music WHERE title_id='" + id + "';";
+                break;
+            case ("Movie"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "DELETE from titles_Movies WHERE title_id='" + id + "';";
+                break;
+            case ("Box Set"):
+                //query = "INSERT INTO 'titles_LiveConcerts' ('title', 'mediaType', 'band/director', 'description', 'genre', 'yearOfRelease', 'price') VALUES ('" + allGuys[0] + "', '" + allGuys[1] + "', '" + allGuys[2] + "', '" + allGuys[3] + "', '" + allGuys[4] + "', '" + allGuys[5] + "', '" + allGuys[6] + "');";
+                //query = "INSERT INTO titles_LiveConcerts (title, mediaType, bandDirector, description, genre, yearOfRelease, price)" + " VALUES (?, ?, ?, ?, ?, ?, ?);";
+                query = "DELETE from titles_TVBox WHERE title_id='" + id + "';";
+                break;
+
+        }
+
+        try {
+
+            //data base drive
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+            String dbServer = "jdbc:mysql://database-1.czpswiukhzqy.eu-west-1.rds.amazonaws.com:3306/UltraVision?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+            String user = "connectionUltra";
+            String password = "!Pass123!";
+            //String sql = "SELECT 'title', 'title_id' FROM ";
+
+            //Get connection
+            conn = DriverManager.getConnection(dbServer, user, password);
+
+            //creating statment
+            Statement stmt = conn.createStatement();
+
+            stmt.executeUpdate(query);
+
+            conn.close();
+
+            JOptionPane.showMessageDialog(null, "Deleted successfully");
+
+
+        }catch (HeadlessException | ClassNotFoundException | IllegalAccessException | InstantiationException | SQLException ex) {
+            System.out.println(ex);
+            System.out.println(ex.getCause());
+            System.out.println(ex.getMessage());
+            System.out.println(ex.toString());
+        }
+
+
+    }
+
+    public String[][] selectTheBirds2D() throws SQLException {
+
+        String data[][] = null;
+        String query = "SELECT * FROM customers;";
+
+        try {
+
+            //data base drive
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+            String dbServer = "jdbc:mysql://database-1.czpswiukhzqy.eu-west-1.rds.amazonaws.com:3306/UltraVision?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+            String user = "connectionUltra";
+            String password = "!Pass123!";
+            //String sql = "SELECT 'title', 'title_id' FROM ";
+
+            //Get connection
+            conn = DriverManager.getConnection(dbServer, user, password);
+
+            //get stmt
+            stmt = conn.createStatement();
+
+            //result set
+            rs = stmt.executeQuery(query);
+
+            int size = 0;
+            while (rs.next()) {
+                //String line1 = rs.next();
+                size++;
+            }
+
+            System.out.println(size + " Users");
+            data = new String[size][10];
+
+            int row = 0;
+            rs = stmt.executeQuery(query);
+            while (rs.next()) {
+
+                //`cust_id`, `fname`, `lname`, `email`, `password`, `phone`, `administrator`, `username`, `quantRented`, `points`
+                //filling the jobs ^^
+                data[row][0] = rs.getString("cust_id");
+                data[row][1] = rs.getString("fname");
+                data[row][2] = rs.getString("lname");
+                data[row][3] = rs.getString("email");
+                data[row][4] = rs.getString("password");
+                data[row][5] = rs.getString("phone");
+                data[row][6] = rs.getString("administrator");
+                data[row][7] = rs.getString("username");
+                data[row][8] = rs.getString("quantRented");
+                data[row][9] = rs.getString("points");
+
+                row++;
+            }
+
+        } catch (SQLException se) {
+            System.out.println("SQL Exception: ");
+
+            System.out.println("State :" + se.getSQLState());
+            System.out.println("Message :" + se.getMessage());
+            System.out.println("Error Code :" + se.getErrorCode());
+        } catch (Exception e) {
+            System.out.println("Error Exception is: " + e);
+
+        } finally {
+            //Close the result set, statement and the connection
+            rs.close();
+            stmt.close();
+            //stmt2.close();
+            conn.close();
+        }
+
+        return data;
+
+        }
+
+    public void insertNewBird(String[] allGuys) {
+
+        String query = "INSERT INTO customers (fname, lname, email, password, phone, administrator, username)" + " VALUES (?, ?, ?, ?, ?, ?, ?);" ;
+
+        try {
+
+            //data base drive
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+            String dbServer = "jdbc:mysql://database-1.czpswiukhzqy.eu-west-1.rds.amazonaws.com:3306/UltraVision?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+            String user = "connectionUltra";
+            String password = "!Pass123!";
+
+            //Get connection
+            conn = DriverManager.getConnection(dbServer, user, password);
+
+            //creating statment
+            PreparedStatement pst = conn.prepareStatement(query);
+            pst.setString(1, allGuys[0]);
+            pst.setString(2, allGuys[1]);
+            pst.setString(3, allGuys[2]);
+            pst.setString(4, allGuys[3]);
+            pst.setString(5, allGuys[4]);
+            if (allGuys[5].equalsIgnoreCase("Yes")) {
+                pst.setString(6, "1");
+            } else if (allGuys[5].equalsIgnoreCase("No")) {
+                pst.setString(6, "0");
+            }
+            pst.setString(7, allGuys[6]);
+
+            pst.executeUpdate();
+
+            conn.close();
+
+            JOptionPane.showMessageDialog(null, "updated successfully");
+
+
+        }catch (HeadlessException | ClassNotFoundException | IllegalAccessException | InstantiationException | SQLException ex) {
+            System.out.println(ex);
+            System.out.println(ex.getCause());
+            System.out.println(ex.getMessage());
+            System.out.println(ex.toString());
+        }
 
     }
 }

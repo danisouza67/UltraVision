@@ -248,6 +248,8 @@ public class MainContentID extends JPanel implements ActionListener {
         buttonIDOne.addActionListener(this);
         buttonIDOne.setActionCommand("update");
         buttonIDTwo = new JButton("Delete");
+        buttonIDTwo.addActionListener(this);
+        buttonIDTwo.setActionCommand("delete");
         bottomMenuID.add(buttonIDOne);
         bottomMenuID.add(buttonIDTwo);
 
@@ -298,11 +300,33 @@ public class MainContentID extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getActionCommand().equalsIgnoreCase("update")){
 
-            updateIDBank();
+            updateIDBank(dataSelected[3], dataSelected[0]);
+        }
+        else if (actionEvent.getActionCommand().equalsIgnoreCase("delete")){
+
+            deleteIDBank(dataSelected[3], dataSelected[0]);
         }
     }
 
-    private void updateIDBank() {
+    private void deleteIDBank(String type, String id) {
+
+        int n = JOptionPane.showConfirmDialog(
+                null,
+                "Do you really want to delete this entry??",
+                "An Inane Question",
+                JOptionPane.YES_NO_OPTION);
+
+        if(true){
+            model.deleteThisHeck(type, id);
+        }
+        else {
+            JOptionPane.showMessageDialog(null, "Operation canceled");
+        }
+
+
+    }
+
+    private void updateIDBank(String type, String id) {
 
         //      String columnNames[] = {"Title ID", "Title", "Media Type", "Type", "Abbreviation", "Band/Director", "Description", "Genre", "Year of release", "Price", "Rent ID"};
 
@@ -329,7 +353,7 @@ public class MainContentID extends JPanel implements ActionListener {
         System.out.println("Price: " + allGuys[6]);
 //        System.out.println("Rent ID: " + jeRentID.getText());
 
-        if (jeTitle.getText().trim().isEmpty() || jeTitle.getText().trim().equalsIgnoreCase(allGuys[0])){
+        /*if (jeTitle.getText().trim().isEmpty() || jeTitle.getText().trim().equalsIgnoreCase(allGuys[0])){
             JOptionPane.showMessageDialog(null, "You haven't typed the Title :/");
             return;
         }else if (jcMediaType.getSelectedItem().toString().isEmpty()){
@@ -358,11 +382,11 @@ public class MainContentID extends JPanel implements ActionListener {
             JOptionPane.showMessageDialog(null, "Price of the Item must be an integer :/");
             System.out.println(e);
             return;
-        }
+        }*/
 
         try{
 
-            model.updateInTheBeach2D(dataSelected[3], allGuys, dataSelected[0]);
+            model.updateInTheBeach2D(type, allGuys, id);
 
         }catch (Exception e){
             System.out.println("the bank had a problem");

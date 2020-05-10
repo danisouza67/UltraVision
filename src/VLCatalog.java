@@ -26,6 +26,8 @@ public class VLCatalog extends JFrame implements ActionListener {
     MainContentID contentID;
     MainContentID contentID2;
     MainContentNew contentNew;
+    MainContentUsers contentUsers;
+    MainContentUsersID contentUsersID;
     Footer footer = new Footer();
     LeftMenu leftMenu;
     LeftMenuDash leftMenuDash;
@@ -91,13 +93,14 @@ public class VLCatalog extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent ae) {
 
         if (ae.getActionCommand().equalsIgnoreCase("ml")) {
-            JPanel containerLeft = new JPanel();
+            containerLeft = new JPanel();
+//            containerLeft.removeAll();
             System.out.println("vc esta em Session ML");
             containerLeft.setVisible(true);
             containerLeft.setOpaque(true);
             containerLeftDash.setVisible(false);
             this.add(containerLeft, BorderLayout.WEST);
-            LeftMenu leftMenu = new LeftMenu("ML", containerLeft, this);
+            leftMenu = new LeftMenu("ML", containerLeft, this);
             containerLeft.setPreferredSize(new Dimension(210, 500));
             containerLeft.add(leftMenu);
             //containerLeft.setBorder(BorderFactory.createEtchedBorder(1,Color.BLACK,Color.CYAN));
@@ -108,12 +111,12 @@ public class VLCatalog extends JFrame implements ActionListener {
         else if (ae.getActionCommand().equalsIgnoreCase("vl")) {
 //            containerLeft = new JPanel();
             System.out.println("vc esta em Session VL");
-            JPanel containerLeft = new JPanel();
+            containerLeft = new JPanel();
             containerLeft.setVisible(true);
             containerLeft.setOpaque(true);
             containerLeftDash.setVisible(false);
             this.add(containerLeft, BorderLayout.WEST);
-            LeftMenu leftMenu = new LeftMenu("VL", containerLeft, this);
+            leftMenu = new LeftMenu("VL", containerLeft, this);
             containerLeft.setPreferredSize(new Dimension(210, 500));
             containerLeft.add(leftMenu);
             //containerLeft.setBorder(BorderFactory.createEtchedBorder(1,Color.BLACK,Color.CYAN));
@@ -124,12 +127,12 @@ public class VLCatalog extends JFrame implements ActionListener {
         else if (ae.getActionCommand().equalsIgnoreCase("tv")) {
 //            containerLeft = new JPanel();
             System.out.println("vc esta em Session TV");
-            JPanel containerLeft = new JPanel();
+            containerLeft = new JPanel();
             containerLeft.setVisible(true);
             containerLeft.setOpaque(true);
             containerLeftDash.setVisible(false);
             this.add(containerLeft, BorderLayout.WEST);
-            LeftMenu leftMenu = new LeftMenu("TV", containerLeft, this);
+            leftMenu = new LeftMenu("TV", containerLeft, this);
             containerLeft.setPreferredSize(new Dimension(210, 500));
             containerLeft.add(leftMenu);
             //containerLeft.setBorder(BorderFactory.createEtchedBorder(1,Color.BLACK,Color.CYAN));
@@ -151,6 +154,15 @@ public class VLCatalog extends JFrame implements ActionListener {
             Border innerBorder = BorderFactory.createTitledBorder("Dashboard");
             Border outerBorder = BorderFactory.createEmptyBorder(5, 5, 5, 5);
             containerLeftDash.setBorder(BorderFactory.createCompoundBorder(innerBorder, outerBorder));
+        }
+        else if (ae.getActionCommand().equalsIgnoreCase("updateUsers")){
+            updateUsersMethod();
+        }
+        else if (ae.getActionCommand().equalsIgnoreCase("selectUser")){
+            selectUserMethod();
+        }
+        else if (ae.getActionCommand().equalsIgnoreCase("createNewUser")){
+            selectUserMethod();
         }
         else if (ae.getActionCommand().equalsIgnoreCase("updateTitles")) {
             updateTitlesMethod();
@@ -227,6 +239,45 @@ public class VLCatalog extends JFrame implements ActionListener {
 //            containerCenter.setBorder(BorderFactory.createEtchedBorder(1, Color.BLACK, Color.CYAN));
 //                createInterfaceForID(dataSelected);
         }
+    }
+
+    private void selectUserMethod() {
+
+        try {
+            System.out.println("Selected ID: " + contentUsers.getTitlesTable().getValueAt(contentUsers.getTitlesTable().getSelectedRow(), 0));
+        } catch (Exception e) {
+            System.out.println("no row selected");
+        }
+        String id = contentUsers.getTitlesTable().getValueAt(contentUsers.getTitlesTable().getSelectedRow(), 0).toString();
+        String[] dataSelected = new String[contentUsers.getData(0).length];
+
+        for(int i=0; i < contentUsers.data.length; i++){
+            if (contentUsers.data[i][0].equals(id)){
+                System.out.print("dataSelected: ");
+                for (int k=0; k < dataSelected.length; k++){
+                    dataSelected[k] = contentUsers.data[i][k];
+                    System.out.print(dataSelected[k] + "\t ");
+                }
+            }
+        }
+
+
+        containerCenter = new JPanel();
+        this.add(containerCenter, BorderLayout.CENTER);
+        containerCenter.setBorder(BorderFactory.createEtchedBorder(1, Color.BLACK, Color.CYAN));
+        contentUsersID = new MainContentUsersID(dataSelected, userFullName);
+        containerCenterID2.add(contentID2);
+
+    }
+
+    private void updateUsersMethod() {
+
+        containerCenter = new JPanel();
+        contentUsers = new MainContentUsers(this);
+        this.add(containerCenter, BorderLayout.CENTER);
+        containerCenter.add(contentUsers);
+        containerCenter.setBorder(BorderFactory.createEtchedBorder(1, Color.BLACK, Color.CYAN));
+
     }
 
     private void createNewButton(String selectedTitleString) {
